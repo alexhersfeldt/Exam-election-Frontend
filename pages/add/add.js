@@ -22,6 +22,7 @@ export default () => {
         },
         body: JSON.stringify({
           name: document.querySelector('input.name').value,
+          votes: 0,
           party_id: document.querySelector('input.party_id').value,
         }),
       })
